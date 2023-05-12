@@ -65,5 +65,5 @@ Start code editor
 ```bash
   code .
   npm install
-  npm start
+  nodemon index.js
 ```
