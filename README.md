@@ -57,7 +57,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd newswire_client
+  cd newswire_server
 ```
 
 Start code editor
