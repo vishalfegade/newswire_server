@@ -2,7 +2,7 @@ const express = require('express'),
 	mongoose = require('mongoose');
 const app = express();
 
-
+const cors = require('cors');
 
 require('dotenv').config();
 
@@ -18,6 +18,8 @@ mongoose
 	
 
 	app.use(express.json());
+    
+	app.use(cors());
 
 	const newsRoutes = require('./routes/news');
 	app.use(newsRoutes);
